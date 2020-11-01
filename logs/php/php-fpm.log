@@ -2432,3 +2432,34 @@
 [28-Oct-2020 11:44:19] WARNING: [pool www] child 842 said into stderr: "NOTICE: PHP message: PHP  10. Serenity_Feature_Widget->form() /Users/Olaitan/Local Sites/penaidltd/app/bedrock/web/wp/wp-includes/class-wp-widget.php:519"
 [28-Oct-2020 12:26:46] NOTICE: fpm is running, pid 1065
 [28-Oct-2020 12:26:46] NOTICE: ready to handle connections
+[29-Oct-2020 13:10:08] NOTICE: fpm is running, pid 1824
+[29-Oct-2020 13:10:08] NOTICE: ready to handle connections
+[29-Oct-2020 13:10:09] WARNING: [pool www] child 1831 said into stderr: "NOTICE: PHP message: PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /Users/Olaitan/Local Sites/penaidltd/app/bedrock/web/wp/wp-includes/wp-db.php on line 1635"
+[29-Oct-2020 13:10:09] WARNING: [pool www] child 1831 said into stderr: "NOTICE: PHP message: PHP Stack trace:"
+[29-Oct-2020 13:10:09] WARNING: [pool www] child 1831 said into stderr: "NOTICE: PHP message: PHP   1. {main}() /Users/Olaitan/Local Sites/penaidltd/app/bedrock/web/index.php:0"
+[29-Oct-2020 13:10:09] WARNING: [pool www] child 1831 said into stderr: "NOTICE: PHP message: PHP   2. require() /Users/Olaitan/Local Sites/penaidltd/app/bedrock/web/index.php:6"
+[29-Oct-2020 13:10:09] WARNING: [pool www] child 1831 said into stderr: "NOTICE: PHP message: PHP   3. require_once() /Users/Olaitan/Local Sites/penaidltd/app/bedrock/web/wp/wp-blog-header.php:13"
+[29-Oct-2020 13:10:09] WARNING: [pool www] child 1831 said into stderr: "NOTICE: PHP message: PHP   4. require_once() /Users/Olaitan/Local Sites/penaidltd/app/bedrock/web/wp/wp-load.php:42"
+[29-Oct-2020 13:10:09] WARNING: [pool www] child 1831 said into stderr: "NOTICE: PHP message: PHP   5. require_once() /Users/Olaitan/Local Sites/penaidltd/app/bedrock/web/wp-config.php:9"
+[29-Oct-2020 13:10:09] WARNING: [pool www] child 1831 said into stderr: "NOTICE: PHP message: PHP   6. require_wp_db() /Users/Olaitan/Local Sites/penaidltd/app/bedrock/web/wp/wp-settings.php:124"
+[29-Oct-2020 13:10:09] WARNING: [pool www] child 1831 said into stderr: "NOTICE: PHP message: PHP   7. wpdb->__construct() /Users/Olaitan/Local Sites/penaidltd/app/bedrock/web/wp/wp-includes/load.php:482"
+[29-Oct-2020 13:10:09] WARNING: [pool www] child 1831 said into stderr: "NOTICE: PHP message: PHP   8. wpdb->db_connect() /Users/Olaitan/Local Sites/penaidltd/app/bedrock/web/wp/wp-includes/wp-db.php:632"
+[29-Oct-2020 13:10:09] WARNING: [pool www] child 1831 said into stderr: "NOTICE: PHP message: PHP   9. mysqli_real_connect() /Users/Olaitan/Local Sites/penaidltd/app/bedrock/web/wp/wp-includes/wp-db.php:1635"
+[29-Oct-2020 13:10:59] NOTICE: Terminating ...
+[29-Oct-2020 13:10:59] NOTICE: Terminating ...
+[29-Oct-2020 13:10:59] NOTICE: exiting, bye-bye!
+[29-Oct-2020 13:11:53] NOTICE: fpm is running, pid 2162
+[29-Oct-2020 13:11:53] NOTICE: ready to handle connections
+[01-Nov-2020 12:01:22] NOTICE: fpm is running, pid 4268
+[01-Nov-2020 12:01:22] NOTICE: ready to handle connections
+[01-Nov-2020 17:22:46] NOTICE: fpm is running, pid 1136
+[01-Nov-2020 17:22:46] NOTICE: ready to handle connections
+[01-Nov-2020 17:29:34] NOTICE: Terminating ...
+[01-Nov-2020 17:29:34] NOTICE: Terminating ...
+[01-Nov-2020 17:29:34] NOTICE: exiting, bye-bye!
+[01-Nov-2020 18:08:03] NOTICE: fpm is running, pid 4516
+[01-Nov-2020 18:08:03] NOTICE: ready to handle connections
+[01-Nov-2020 18:12:57] NOTICE: fpm is running, pid 931
+[01-Nov-2020 18:12:57] NOTICE: ready to handle connections
+[01-Nov-2020 18:21:53] NOTICE: fpm is running, pid 1167
+[01-Nov-2020 18:21:53] NOTICE: ready to handle connections
