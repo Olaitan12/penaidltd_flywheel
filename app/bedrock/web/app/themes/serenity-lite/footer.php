@@ -65,11 +65,9 @@
 
                 <div class="footer-copyright text-center small bg-dimped__dark py-3">
 
-                    <a class="text-light" href="<?php echo esc_url( __( 'https://wordpress.org/', 'serenity-lite' ) ); ?>"><?php printf( __( 'Powered by %s', 'serenity-lite' ), 'WordPress' ); ?></a>
+                    <a class="text-light" href="<?php echo esc_url( __( '', '' ) ); ?>"><?php printf( __( 'Powered by %s', '' ), 'Penaid' ); ?></a>
 
                     <span class="sep text-light mx-2"> | </span>
-
-                    <a class="text-light" href="<?php echo esc_url( 'https://www.themely.com/' ); ?>"><?php printf( __( 'Made by %s', 'serenity-lite' ), 'Themely' ); ?></a>
 
                 </div>
 
